@@ -36,5 +36,16 @@ public class StackKataTest {
         assertEquals(false,resultBoolean);
 
     }
+    @Test
+    public void pushOneAndTwoThenIsEmptyIsFalse(){
+        //Act
+        stackKata.push(1);
+        stackKata.push(2);
+        resultBoolean = stackKata.isEmpty();
+
+        //Assert
+        assertEquals(false,resultBoolean);
+
+    }
 
 }
