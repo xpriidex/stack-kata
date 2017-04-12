@@ -83,5 +83,15 @@ public class StackKataTest {
         assertEquals(8,result2);
 
     }
+    @Test (expected = ErrorKata.class)
+    public void popInStackEmptyReturnError() {
+        //Act
+        int result2=stackKata.pop();
+
+        //Assert
+        assertEquals(9,result);
+        assertEquals(8,result2);
+
+    }
 
 }
