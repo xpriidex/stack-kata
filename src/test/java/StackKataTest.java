@@ -9,6 +9,7 @@ import static org.junit.Assert.assertEquals;
 public class StackKataTest {
     StackKata stackKata;
     boolean resultBoolean;
+    int result;
     @Before
     public void setUp() throws Exception {
         //Arrange
@@ -45,6 +46,17 @@ public class StackKataTest {
 
         //Assert
         assertEquals(false,resultBoolean);
+
+    }
+    @Test
+    public void pushFourAndFivehenIsTamIsTwo(){
+        //Act
+        stackKata.push(1);
+        stackKata.push(2);
+        result=stackKata.tam();
+
+        //Assert
+        assertEquals(2,result);
 
     }
 

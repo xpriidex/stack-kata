@@ -1,13 +1,21 @@
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * Created by Felipe on 4/12/2017.
  */
 public class StackKata {
-    Boolean isEmpty=true;
+    private List<Integer> stack= new ArrayList<Integer>();
     public boolean isEmpty() {
-        return isEmpty;
+        return stack.isEmpty();
     }
 
     public void push(int i) {
-        isEmpty=false;
+        stack.add(i);
+    }
+
+    public int tam() {
+        return stack.size();
+
     }
 }

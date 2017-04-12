@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="34ee4484-d795-49f0-b98f-812f70d1e703" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/StackKata.java" afterPath="$PROJECT_DIR$/src/main/java/StackKata.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/StackKataTest.java" afterPath="$PROJECT_DIR$/src/test/java/StackKataTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -25,13 +27,15 @@
       <file leaf-file-name="StackKata.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/StackKata.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="21" lean-forward="false" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+            <state relative-caret-position="68">
+              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
               <folding>
-                <element signature="e#123#124#0" expanded="true" />
-                <element signature="e#153#154#0" expanded="true" />
-                <element signature="e#184#185#0" expanded="true" />
-                <element signature="e#213#214#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#166#175#0" expanded="true" />
+                <element signature="e#208#209#0" expanded="true" />
+                <element signature="e#246#247#0" expanded="true" />
+                <element signature="e#277#278#0" expanded="true" />
+                <element signature="e#305#306#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -40,8 +44,8 @@
       <file leaf-file-name="StackKataTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/StackKataTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="50" column="1" lean-forward="true" selection-start-line="50" selection-start-column="1" selection-end-line="50" selection-end-column="1" />
+            <state relative-caret-position="220">
+              <caret line="53" column="23" lean-forward="true" selection-start-line="53" selection-start-column="23" selection-end-line="53" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -407,8 +411,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/test/java/StackTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/StackKata.java" />
         <option value="$PROJECT_DIR$/src/test/java/StackKataTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/StackKata.java" />
       </list>
     </option>
   </component>
@@ -615,6 +619,27 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="StackKataTest" />
       <option name="METHOD_NAME" value="pushOneAndTwoThenIsEmptyIsFalse" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="StackKataTest.pushFourAndFivehenIsTamIsTwo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="stack-kata_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="StackKataTest" />
+      <option name="METHOD_NAME" value="pushFourAndFivehenIsTamIsTwo" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -1008,18 +1033,20 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
-    <list size="4">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.StackKataTest.stackStartEmpty" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.StackKataTest.pushThreeThenIsEmptyIsFalse" />
       <item index="2" class="java.lang.String" itemvalue="JUnit.StackKataTest" />
       <item index="3" class="java.lang.String" itemvalue="JUnit.StackKataTest.pushOneAndTwoThenIsEmptyIsFalse" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.StackKataTest.pushFourAndFivehenIsTamIsTwo" />
     </list>
     <recent_temporary>
-      <list size="4">
+      <list size="5">
         <item index="0" class="java.lang.String" itemvalue="JUnit.StackKataTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.StackKataTest.pushOneAndTwoThenIsEmptyIsFalse" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.StackKataTest.pushThreeThenIsEmptyIsFalse" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.StackKataTest.stackStartEmpty" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.StackKataTest.pushFourAndFivehenIsTamIsTwo" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.StackKataTest.pushOneAndTwoThenIsEmptyIsFalse" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.StackKataTest.pushThreeThenIsEmptyIsFalse" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.StackKataTest.stackStartEmpty" />
       </list>
     </recent_temporary>
   </component>
@@ -1033,7 +1060,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1492006947296</updated>
-      <workItem from="1492006951676" duration="2041000" />
+      <workItem from="1492006951676" duration="2629000" />
     </task>
     <servers />
   </component>
@@ -1043,6 +1070,15 @@
     </history-entry>
     <history-entry file="StackKataTest - 2017.04.12 at 11h 57m 26s.xml">
       <configuration name="StackKataTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StackKataTest - 2017.04.12 at 12h 06m 41s.xml">
+      <configuration name="StackKataTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StackKataTest - 2017.04.12 at 12h 07m 17s.xml">
+      <configuration name="StackKataTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StackKataTest_pushFourAndFivehenIsTamIsTwo - 2017.04.12 at 12h 06m 32s.xml">
+      <configuration name="StackKataTest.pushFourAndFivehenIsTamIsTwo" configurationId="JUnit" />
     </history-entry>
     <history-entry file="StackKataTest_pushOneAndTwoThenIsEmptyIsFalse - 2017.04.12 at 11h 56m 43s.xml">
       <configuration name="StackKataTest.pushOneAndTwoThenIsEmptyIsFalse" configurationId="JUnit" />
@@ -1061,7 +1097,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2041000" />
+    <option name="totallyTimeSpent" value="2629000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -1132,21 +1168,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/StackKata.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="21" lean-forward="false" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+        <state relative-caret-position="68">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding>
-            <element signature="e#123#124#0" expanded="true" />
-            <element signature="e#153#154#0" expanded="true" />
-            <element signature="e#184#185#0" expanded="true" />
-            <element signature="e#213#214#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#166#175#0" expanded="true" />
+            <element signature="e#208#209#0" expanded="true" />
+            <element signature="e#246#247#0" expanded="true" />
+            <element signature="e#277#278#0" expanded="true" />
+            <element signature="e#305#306#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/StackKataTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="50" column="1" lean-forward="true" selection-start-line="50" selection-start-column="1" selection-end-line="50" selection-end-column="1" />
+        <state relative-caret-position="220">
+          <caret line="53" column="23" lean-forward="true" selection-start-line="53" selection-start-column="23" selection-end-line="53" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
