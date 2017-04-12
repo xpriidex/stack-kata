@@ -18,4 +18,9 @@ public class StackKata {
         return stack.size();
 
     }
+
+    public int pop() {
+
+        return stack.remove(tam()-1);
+    }
 }
