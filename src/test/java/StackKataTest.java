@@ -70,5 +70,18 @@ public class StackKataTest {
         assertEquals(7,result);
 
     }
+    @Test
+    public void push8And9ThenPopReturn9AndPopReturn8(){
+        //Act
+        stackKata.push(8);
+        stackKata.push(9);
+        result=stackKata.pop();
+        int result2=stackKata.pop();
+
+        //Assert
+        assertEquals(9,result);
+        assertEquals(8,result2);
+
+    }
 
 }
